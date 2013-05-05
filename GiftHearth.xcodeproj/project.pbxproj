@@ -12,15 +12,14 @@
 		FA460D5B170B8777003D851B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460D5A170B8776003D851B /* CoreGraphics.framework */; };
 		FA460D61170B8777003D851B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA460D5F170B8777003D851B /* InfoPlist.strings */; };
 		FA460D63170B8777003D851B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D62170B8777003D851B /* main.m */; };
-		FA460D67170B8777003D851B /* AGVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D66170B8777003D851B /* AGVAppDelegate.m */; };
+		FA460D67170B8777003D851B /* GHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D66170B8777003D851B /* GHAppDelegate.m */; };
 		FA460D69170B8777003D851B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D68170B8777003D851B /* Default.png */; };
 		FA460D6B170B8777003D851B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D6A170B8777003D851B /* Default@2x.png */; };
 		FA460D6D170B8777003D851B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D6C170B8777003D851B /* Default-568h@2x.png */; };
 		FA460D70170B8777003D851B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA460D6E170B8777003D851B /* MainStoryboard.storyboard */; };
-		FA460D73170B8777003D851B /* AGVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D72170B8777003D851B /* AGVFirstViewController.m */; };
+		FA460D73170B8777003D851B /* GHFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D72170B8777003D851B /* GHFriendsViewController.m */; };
 		FA460D75170B8777003D851B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D74170B8777003D851B /* first.png */; };
 		FA460D77170B8777003D851B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D76170B8777003D851B /* first@2x.png */; };
-		FA460D7A170B8777003D851B /* AGVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D79170B8777003D851B /* AGVSecondViewController.m */; };
 		FA460D7C170B8777003D851B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D7B170B8777003D851B /* second.png */; };
 		FA460D7E170B8777003D851B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460D7D170B8777003D851B /* second@2x.png */; };
 		FA460D86170B8777003D851B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460D85170B8777003D851B /* SenTestingKit.framework */; };
@@ -28,6 +27,35 @@
 		FA460D88170B8777003D851B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460D58170B8776003D851B /* Foundation.framework */; };
 		FA460D90170B8777003D851B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA460D8E170B8777003D851B /* InfoPlist.strings */; };
 		FA460D93170B8777003D851B /* GiftHearthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460D92170B8777003D851B /* GiftHearthTests.m */; };
+		FA460D9F170B96C5003D851B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460D9E170B96C5003D851B /* FacebookSDK.framework */; };
+		FA460DA1170B97EE003D851B /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA460DA0170B97EE003D851B /* FacebookSDKResources.bundle */; };
+		FA460DA5170B98A5003D851B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460DA2170B98A4003D851B /* Accounts.framework */; };
+		FA460DA6170B98A5003D851B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460DA3170B98A4003D851B /* AdSupport.framework */; };
+		FA460DA7170B98A5003D851B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA460DA4170B98A4003D851B /* Social.framework */; };
+		FA460DAD170BC40B003D851B /* fire_02.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460DAC170BC40B003D851B /* fire_02.png */; };
+		FA460DAF170BC6EA003D851B /* photos_polaroid.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460DAE170BC6EA003D851B /* photos_polaroid.png */; };
+		FA460DB1170BD6DA003D851B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = FA460DB0170BD6DA003D851B /* heart.png */; };
+		FA460DB4170BD8AD003D851B /* GHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460DB3170BD8AD003D851B /* GHTabBarController.m */; };
+		FA460DB7170BDF33003D851B /* GHWishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA460DB6170BDF33003D851B /* GHWishlistViewController.m */; };
+		FA4F1758170E1CF600ACF0D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4F1757170E1CF600ACF0D3 /* CoreData.framework */; };
+		FA4F175A170E1FD500ACF0D3 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4F1759170E1FD500ACF0D3 /* AWSiOSSDK.framework */; };
+		FAA8CC7617338E7C007102A8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC7517338E7C007102A8 /* Parse.framework */; };
+		FAA8CC7817338EBA007102A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC7717338EBA007102A8 /* AudioToolbox.framework */; };
+		FAA8CC7A17338EC8007102A8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC7917338EC8007102A8 /* CFNetwork.framework */; };
+		FAA8CC7C17338ED4007102A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC7B17338ED4007102A8 /* CoreLocation.framework */; };
+		FAA8CC7E17338EF1007102A8 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC7D17338EF1007102A8 /* libz.1.1.3.dylib */; };
+		FAA8CC8017338F07007102A8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC7F17338F07007102A8 /* MobileCoreServices.framework */; };
+		FAA8CC8217338F14007102A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC8117338F14007102A8 /* QuartzCore.framework */; };
+		FAA8CC8417338F22007102A8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC8317338F22007102A8 /* Security.framework */; };
+		FAA8CC8617338F2A007102A8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC8517338F2A007102A8 /* StoreKit.framework */; };
+		FAA8CC8817338F2F007102A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8CC8717338F2F007102A8 /* SystemConfiguration.framework */; };
+		FAA8CC8E173486CD007102A8 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8CC8D173486CC007102A8 /* Friend.m */; };
+		FAA8CC911735BBCF007102A8 /* NewWish.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8CC901735BBCE007102A8 /* NewWish.m */; };
+		FAA8CC94173640AF007102A8 /* GHFriendWishList.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8CC93173640AF007102A8 /* GHFriendWishList.m */; };
+		FAC5451717308B0E00CE8173 /* GHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC5451617308B0E00CE8173 /* GHLoginViewController.m */; };
+		FAC5451A1732F98600CE8173 /* GiftHearthCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAC545181732F98600CE8173 /* GiftHearthCD.xcdatamodeld */; };
+		FAC5451C1733011100CE8173 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC5451B1733011100CE8173 /* AppIcon.png */; };
+		FAC5451E173347BB00CE8173 /* login-button-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC5451D173347BB00CE8173 /* login-button-small@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +77,16 @@
 		FA460D60170B8777003D851B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA460D62170B8777003D851B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA460D64170B8777003D851B /* GiftHearth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiftHearth-Prefix.pch"; sourceTree = "<group>"; };
-		FA460D65170B8777003D851B /* AGVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGVAppDelegate.h; sourceTree = "<group>"; };
-		FA460D66170B8777003D851B /* AGVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGVAppDelegate.m; sourceTree = "<group>"; };
+		FA460D65170B8777003D851B /* GHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAppDelegate.h; sourceTree = "<group>"; };
+		FA460D66170B8777003D851B /* GHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAppDelegate.m; sourceTree = "<group>"; };
 		FA460D68170B8777003D851B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FA460D6A170B8777003D851B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FA460D6C170B8777003D851B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FA460D6F170B8777003D851B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FA460D71170B8777003D851B /* AGVFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGVFirstViewController.h; sourceTree = "<group>"; };
-		FA460D72170B8777003D851B /* AGVFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGVFirstViewController.m; sourceTree = "<group>"; };
+		FA460D71170B8777003D851B /* GHFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHFriendsViewController.h; sourceTree = "<group>"; };
+		FA460D72170B8777003D851B /* GHFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHFriendsViewController.m; sourceTree = "<group>"; };
 		FA460D74170B8777003D851B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		FA460D76170B8777003D851B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		FA460D78170B8777003D851B /* AGVSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGVSecondViewController.h; sourceTree = "<group>"; };
-		FA460D79170B8777003D851B /* AGVSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGVSecondViewController.m; sourceTree = "<group>"; };
 		FA460D7B170B8777003D851B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		FA460D7D170B8777003D851B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		FA460D84170B8777003D851B /* GiftHearthTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftHearthTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +95,41 @@
 		FA460D8F170B8777003D851B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA460D91170B8777003D851B /* GiftHearthTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftHearthTests.h; sourceTree = "<group>"; };
 		FA460D92170B8777003D851B /* GiftHearthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftHearthTests.m; sourceTree = "<group>"; };
+		FA460D9E170B96C5003D851B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		FA460DA0170B97EE003D851B /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		FA460DA2170B98A4003D851B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FA460DA3170B98A4003D851B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FA460DA4170B98A4003D851B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FA460DAC170BC40B003D851B /* fire_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire_02.png; path = "../../../../Downloads/app-bits_free_tabbar_icons/standard/fire_02.png"; sourceTree = "<group>"; };
+		FA460DAE170BC6EA003D851B /* photos_polaroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photos_polaroid.png; path = "../../../../Downloads/app-bits_free_tabbar_icons/standard/photos_polaroid.png"; sourceTree = "<group>"; };
+		FA460DB0170BD6DA003D851B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = "../../../../Downloads/app-bits_free_tabbar_icons/standard/heart.png"; sourceTree = "<group>"; };
+		FA460DB2170BD8AD003D851B /* GHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabBarController.h; sourceTree = "<group>"; };
+		FA460DB3170BD8AD003D851B /* GHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabBarController.m; sourceTree = "<group>"; };
+		FA460DB5170BDF33003D851B /* GHWishlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHWishlistViewController.h; sourceTree = "<group>"; };
+		FA460DB6170BDF33003D851B /* GHWishlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHWishlistViewController.m; sourceTree = "<group>"; };
+		FA4F1757170E1CF600ACF0D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA4F1759170E1FD500ACF0D3 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSiOSSDK.framework; path = "../../aws-ios-sdk-1.4.6/AWSiOSSDK.framework"; sourceTree = "<group>"; };
+		FAA8CC7517338E7C007102A8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FAA8CC7717338EBA007102A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAA8CC7917338EC8007102A8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAA8CC7B17338ED4007102A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAA8CC7D17338EF1007102A8 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		FAA8CC7F17338F07007102A8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FAA8CC8117338F14007102A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAA8CC8317338F22007102A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAA8CC8517338F2A007102A8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FAA8CC8717338F2F007102A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAA8CC8C173486CC007102A8 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		FAA8CC8D173486CC007102A8 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		FAA8CC8F1735BBCE007102A8 /* NewWish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWish.h; sourceTree = "<group>"; };
+		FAA8CC901735BBCE007102A8 /* NewWish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWish.m; sourceTree = "<group>"; };
+		FAA8CC92173640AF007102A8 /* GHFriendWishList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHFriendWishList.h; sourceTree = "<group>"; };
+		FAA8CC93173640AF007102A8 /* GHFriendWishList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHFriendWishList.m; sourceTree = "<group>"; };
+		FAC5451517308B0E00CE8173 /* GHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoginViewController.h; sourceTree = "<group>"; };
+		FAC5451617308B0E00CE8173 /* GHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoginViewController.m; sourceTree = "<group>"; };
+		FAC545191732F98600CE8173 /* GiftHearthCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftHearthCD.xcdatamodel; sourceTree = "<group>"; };
+		FAC5451B1733011100CE8173 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = ../AppIcon.png; sourceTree = "<group>"; };
+		FAC5451D173347BB00CE8173 /* login-button-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +137,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA8CC8817338F2F007102A8 /* SystemConfiguration.framework in Frameworks */,
+				FAA8CC8617338F2A007102A8 /* StoreKit.framework in Frameworks */,
+				FAA8CC8417338F22007102A8 /* Security.framework in Frameworks */,
+				FAA8CC8217338F14007102A8 /* QuartzCore.framework in Frameworks */,
+				FAA8CC8017338F07007102A8 /* MobileCoreServices.framework in Frameworks */,
+				FAA8CC7E17338EF1007102A8 /* libz.1.1.3.dylib in Frameworks */,
+				FAA8CC7C17338ED4007102A8 /* CoreLocation.framework in Frameworks */,
+				FAA8CC7A17338EC8007102A8 /* CFNetwork.framework in Frameworks */,
+				FAA8CC7817338EBA007102A8 /* AudioToolbox.framework in Frameworks */,
+				FA4F175A170E1FD500ACF0D3 /* AWSiOSSDK.framework in Frameworks */,
+				FA4F1758170E1CF600ACF0D3 /* CoreData.framework in Frameworks */,
+				FA460DA5170B98A5003D851B /* Accounts.framework in Frameworks */,
+				FA460DA6170B98A5003D851B /* AdSupport.framework in Frameworks */,
+				FA460DA7170B98A5003D851B /* Social.framework in Frameworks */,
 				FA460D57170B8776003D851B /* UIKit.framework in Frameworks */,
 				FA460D59170B8776003D851B /* Foundation.framework in Frameworks */,
 				FA460D5B170B8777003D851B /* CoreGraphics.framework in Frameworks */,
+				FA460D9F170B96C5003D851B /* FacebookSDK.framework in Frameworks */,
+				FAA8CC7617338E7C007102A8 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +194,23 @@
 		FA460D55170B8776003D851B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAA8CC8717338F2F007102A8 /* SystemConfiguration.framework */,
+				FAA8CC8517338F2A007102A8 /* StoreKit.framework */,
+				FAA8CC8317338F22007102A8 /* Security.framework */,
+				FAA8CC8117338F14007102A8 /* QuartzCore.framework */,
+				FAA8CC7F17338F07007102A8 /* MobileCoreServices.framework */,
+				FAA8CC7D17338EF1007102A8 /* libz.1.1.3.dylib */,
+				FAA8CC7B17338ED4007102A8 /* CoreLocation.framework */,
+				FAA8CC7917338EC8007102A8 /* CFNetwork.framework */,
+				FAA8CC7717338EBA007102A8 /* AudioToolbox.framework */,
+				FAA8CC7517338E7C007102A8 /* Parse.framework */,
+				FA4F1759170E1FD500ACF0D3 /* AWSiOSSDK.framework */,
+				FA4F1757170E1CF600ACF0D3 /* CoreData.framework */,
+				FA460DA2170B98A4003D851B /* Accounts.framework */,
+				FA460DA3170B98A4003D851B /* AdSupport.framework */,
+				FA460DA4170B98A4003D851B /* Social.framework */,
+				FA460DA0170B97EE003D851B /* FacebookSDKResources.bundle */,
+				FA460D9E170B96C5003D851B /* FacebookSDK.framework */,
 				FA460D56170B8776003D851B /* UIKit.framework */,
 				FA460D58170B8776003D851B /* Foundation.framework */,
 				FA460D5A170B8776003D851B /* CoreGraphics.framework */,
@@ -128,15 +222,29 @@
 		FA460D5C170B8777003D851B /* GiftHearth */ = {
 			isa = PBXGroup;
 			children = (
-				FA460D65170B8777003D851B /* AGVAppDelegate.h */,
-				FA460D66170B8777003D851B /* AGVAppDelegate.m */,
+				FAA8CC8F1735BBCE007102A8 /* NewWish.h */,
+				FAA8CC901735BBCE007102A8 /* NewWish.m */,
+				FAC545181732F98600CE8173 /* GiftHearthCD.xcdatamodeld */,
+				FAA8CC8C173486CC007102A8 /* Friend.h */,
+				FAA8CC8D173486CC007102A8 /* Friend.m */,
+				FAC5451517308B0E00CE8173 /* GHLoginViewController.h */,
+				FAC5451617308B0E00CE8173 /* GHLoginViewController.m */,
+				FA460D65170B8777003D851B /* GHAppDelegate.h */,
+				FA460D66170B8777003D851B /* GHAppDelegate.m */,
+				FAA8CC92173640AF007102A8 /* GHFriendWishList.h */,
+				FAA8CC93173640AF007102A8 /* GHFriendWishList.m */,
+				FA460DB2170BD8AD003D851B /* GHTabBarController.h */,
+				FA460DB3170BD8AD003D851B /* GHTabBarController.m */,
+				FA460D71170B8777003D851B /* GHFriendsViewController.h */,
+				FA460D72170B8777003D851B /* GHFriendsViewController.m */,
 				FA460D6E170B8777003D851B /* MainStoryboard.storyboard */,
-				FA460D71170B8777003D851B /* AGVFirstViewController.h */,
-				FA460D72170B8777003D851B /* AGVFirstViewController.m */,
+				FA460DB5170BDF33003D851B /* GHWishlistViewController.h */,
+				FA460DB6170BDF33003D851B /* GHWishlistViewController.m */,
+				FA460DB0170BD6DA003D851B /* heart.png */,
+				FA460DAC170BC40B003D851B /* fire_02.png */,
+				FA460DAE170BC6EA003D851B /* photos_polaroid.png */,
 				FA460D74170B8777003D851B /* first.png */,
 				FA460D76170B8777003D851B /* first@2x.png */,
-				FA460D78170B8777003D851B /* AGVSecondViewController.h */,
-				FA460D79170B8777003D851B /* AGVSecondViewController.m */,
 				FA460D7B170B8777003D851B /* second.png */,
 				FA460D7D170B8777003D851B /* second@2x.png */,
 				FA460D5D170B8777003D851B /* Supporting Files */,
@@ -147,10 +255,12 @@
 		FA460D5D170B8777003D851B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAC5451D173347BB00CE8173 /* login-button-small@2x.png */,
 				FA460D5E170B8777003D851B /* GiftHearth-Info.plist */,
 				FA460D5F170B8777003D851B /* InfoPlist.strings */,
 				FA460D62170B8777003D851B /* main.m */,
 				FA460D64170B8777003D851B /* GiftHearth-Prefix.pch */,
+				FAC5451B1733011100CE8173 /* AppIcon.png */,
 				FA460D68170B8777003D851B /* Default.png */,
 				FA460D6A170B8777003D851B /* Default@2x.png */,
 				FA460D6C170B8777003D851B /* Default-568h@2x.png */,
@@ -258,6 +368,12 @@
 				FA460D77170B8777003D851B /* first@2x.png in Resources */,
 				FA460D7C170B8777003D851B /* second.png in Resources */,
 				FA460D7E170B8777003D851B /* second@2x.png in Resources */,
+				FA460DA1170B97EE003D851B /* FacebookSDKResources.bundle in Resources */,
+				FA460DAD170BC40B003D851B /* fire_02.png in Resources */,
+				FA460DAF170BC6EA003D851B /* photos_polaroid.png in Resources */,
+				FA460DB1170BD6DA003D851B /* heart.png in Resources */,
+				FAC5451C1733011100CE8173 /* AppIcon.png in Resources */,
+				FAC5451E173347BB00CE8173 /* login-button-small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +409,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA460D63170B8777003D851B /* main.m in Sources */,
-				FA460D67170B8777003D851B /* AGVAppDelegate.m in Sources */,
-				FA460D73170B8777003D851B /* AGVFirstViewController.m in Sources */,
-				FA460D7A170B8777003D851B /* AGVSecondViewController.m in Sources */,
+				FA460D67170B8777003D851B /* GHAppDelegate.m in Sources */,
+				FA460D73170B8777003D851B /* GHFriendsViewController.m in Sources */,
+				FA460DB4170BD8AD003D851B /* GHTabBarController.m in Sources */,
+				FA460DB7170BDF33003D851B /* GHWishlistViewController.m in Sources */,
+				FAC5451717308B0E00CE8173 /* GHLoginViewController.m in Sources */,
+				FAC5451A1732F98600CE8173 /* GiftHearthCD.xcdatamodeld in Sources */,
+				FAA8CC8E173486CD007102A8 /* Friend.m in Sources */,
+				FAA8CC911735BBCF007102A8 /* NewWish.m in Sources */,
+				FAA8CC94173640AF007102A8 /* GHFriendWishList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,9 +526,19 @@
 		FA460D97170B8777003D851B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+					"\"$(SRCROOT)/../../aws-ios-sdk-1.4.6\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GiftHearth/GiftHearth-Prefix.pch";
 				INFOPLIST_FILE = "GiftHearth/GiftHearth-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,9 +547,19 @@
 		FA460D98170B8777003D851B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+					"\"$(SRCROOT)/../../aws-ios-sdk-1.4.6\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GiftHearth/GiftHearth-Prefix.pch";
 				INFOPLIST_FILE = "GiftHearth/GiftHearth-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,6 +618,7 @@
 				FA460D98170B8777003D851B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA460D99170B8777003D851B /* Build configuration list for PBXNativeTarget "GiftHearthTests" */ = {
 			isa = XCConfigurationList;
@@ -484,8 +627,22 @@
 				FA460D9B170B8777003D851B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAC545181732F98600CE8173 /* GiftHearthCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAC545191732F98600CE8173 /* GiftHearthCD.xcdatamodel */,
+			);
+			currentVersion = FAC545191732F98600CE8173 /* GiftHearthCD.xcdatamodel */;
+			path = GiftHearthCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA460D4B170B8776003D851B /* Project object */;
 }

@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AGVAppDelegate.h"
+#import "GHAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AGVAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([GHAppDelegate class]));
     }
 }
